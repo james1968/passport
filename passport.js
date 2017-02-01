@@ -22,5 +22,5 @@ function driver(data) {
   var strSixthMiddle = (middleName.toString().charAt(0) + '9').substr(0, 1);
   return strFirst + strSecond + strThird + strFourth + strFifth + strSixth + strSixthMiddle + '9' + 'AA'
   }
-  var data = ['James', 'Edward', 'Baker', '21-Nov-1968', 'M'];
+  var data = ['James', 'Edward', 'Baker', 'xx-xxx-xxxx', 'M'];
   console.log(driver(data));
